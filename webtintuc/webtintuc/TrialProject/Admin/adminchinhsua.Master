@@ -1,0 +1,216 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adminchinhsua.master.cs" Inherits="TrialProject.Admin.adminchinhsua" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .stylebackground
+        {
+         background-image:url('../image/bachground.png');
+         background-repeat:repeat-x;
+       }
+    
+        .khungtable
+        {
+            border:solid 1px gray;
+            -moz-border-radius:3px;
+            width:1100px;
+            margin-left:120px;
+            margin-right:120px;
+        }
+       
+        </style>
+</head>
+<body >
+    
+    <form id="form1" runat="server">
+     
+     <table class="khungtable">
+         <tr>
+             <td style="background-image:url('../image/menu/adminne.gif'); background-repeat:no-repeat;" >
+                 <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/Default.aspx">Trang 
+                 Chủ</asp:HyperLink>
+             </td>
+             <td rowspan="37" style="vertical-align: top; border-left:solid 1px black;">
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        &nbsp; </asp:ContentPlaceHolder>
+                 </td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 <asp:HyperLink ID="HyperLink22" runat="server" 
+                     NavigateUrl="~/Admin/QuanLyMenu.aspx">Quản Lý Menu</asp:HyperLink>
+             </td>
+         </tr>
+
+         <tr>
+             <td >
+                 <asp:HyperLink ID="HyperLink11" runat="server" 
+                     NavigateUrl="~/Admin/ThemBaiViet.aspx">Thêm Bài Viết</asp:HyperLink>
+             </td>
+         </tr>
+         <tr>
+            
+         </tr>
+         <tr>
+             <td>
+                 <asp:HyperLink ID="HyperLink13" runat="server" 
+                     NavigateUrl="~/Admin/ThemBaiViet.aspx">Thêm Bài Viết</asp:HyperLink>
+             </td>
+         </tr>
+
+          <tr>
+             <td >
+                 <asp:HyperLink ID="HyperLink15" runat="server" 
+                     NavigateUrl="~/Admin/DuyetBaiViet.aspx">Duyệt Bài Viết</asp:HyperLink>
+             </td>
+         </tr>
+
+         <tr>
+             <td >
+                 <asp:HyperLink ID="HyperLink14" runat="server" 
+                     NavigateUrl="~/Admin/QuanLiBaiViet.aspx">Sửa / Xóa Bài Viết</asp:HyperLink>
+             </td>
+         </tr>
+        
+         <tr>
+             <td >
+                 <asp:HyperLink ID="HyperLink16" runat="server" 
+                     NavigateUrl="~/Admin/DuyetBinhLuan.aspx">Duyệt Bình Luận</asp:HyperLink>
+             </td>
+         </tr>
+         <tr>
+           
+         </tr>
+         <tr>
+             <td >
+                 <asp:HyperLink ID="HyperLink18" runat="server" 
+                     NavigateUrl="~/Admin/QuanLyTaiKhoan.aspx">Thêm Tài Khoản</asp:HyperLink>
+             </td>
+         </tr>
+         <tr>
+             <td >
+                 <asp:HyperLink ID="HyperLink19" runat="server" 
+                     NavigateUrl="~/Admin/SuaXoaTaiKhoan.aspx">Sửa / Xóa Tài Khoản</asp:HyperLink>
+             </td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 <asp:HyperLink ID="HyperLink20" runat="server" 
+                     NavigateUrl="~/Admin/DoiMatKhau.aspx">Đổi Mật Khẩu</asp:HyperLink>
+             </td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 <asp:HyperLink ID="HyperLink21" runat="server" 
+                     NavigateUrl="~/Admin/QuanLyBanner.aspx">Quản Lý Banner</asp:HyperLink>
+             </td>
+         </tr>
+         
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style9">
+             </td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style7">
+                 &nbsp;</td>
+         </tr>
+         </table>
+     
+     <br /><br />
+    
+    </form>
+</body>
+</html>

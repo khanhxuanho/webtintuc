@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<siteMap xmlns='http://schemas.microsoft.com/AspNet/SiteMap-File-1.0'>
+<siteMapNode url='' title=''  description=''>
+<siteMapNode url='Default.aspx' title='Trang chủ'  description='' />
+<siteMapNode url='BaiViet.aspx?mid=2' title='AFF cup'  description=''>
+<siteMapNode url='BaiViet.aspx?mid=23' title='Tin tức '  description=''/>
+<siteMapNode url='BaiViet.aspx?mid=24' title='Lịch thi đấu- Kết quả '  description=''/>
+<siteMapNode url='BaiViet.aspx?mid=25' title='Lịch sử AFF cup'  description=''/>
+</siteMapNode>
+<siteMapNode url='BaiViet.aspx?mid=3' title='Bóng đá anh'  description=''>
+<siteMapNode url='BaiViet.aspx?mid=26' title='Tin mới nhất '  description=''/>
+<siteMapNode url='BaiViet.aspx?mid=27' title='Giải ngoại hạng'  description=''/>
+<siteMapNode url='BaiViet.aspx?mid=28' title='Giải hạng nhất'  description=''/>
+<siteMapNode url='BaiViet.aspx?mid=29' title='Cúp fa'  description=''/>
+<siteMapNode url='BaiViet.aspx?mid=30' title='Cúp liên đoàn anh'  description=''/>
+</siteMapNode>
+<siteMapNode url='BaiViet.aspx?mid=4' title='Bóng đá ý'  description=''>
+<siteMapNode url='BaiViet.aspx?mid=31' title='Tin mới nhất '  description=''/>
+<siteMapNode url='BaiViet.aspx?mid=32' title='Giải serie A'  description=''/>
+<siteMapNode url='BaiViet.aspx?mid=33' title='Giải serie B'  description=''/>
+<siteMapNode url='BaiViet.aspx?mid=34' title='Giải quốc nội'  description=''/>
+</siteMapNode>
+<siteMapNode url='BaiViet.aspx?mid=5' title='Bóng đá tbn'  description=''>
+<siteMapNode url='BaiViet.aspx?mid=35' title='Tin mới nhất'  description=''/>
+<siteMapNode url='BaiViet.aspx?mid=36' title='La Liga'  description=''/>
+<siteMapNode url='BaiViet.aspx?mid=37' title='Cúp nhà vua '  description=''/>
+</siteMapNode>
+<siteMapNode url='BaiViet.aspx?mid=6' title='Việt Nam'  description=''>
+<siteMapNode url='BaiViet.aspx?mid=38' title='Giải V-League'  description=''/>
+<siteMapNode url='BaiViet.aspx?mid=39' title='Giải hạng nhất '  description=''/>
+<siteMapNode url='BaiViet.aspx?mid=40' title='Cúp quốc gia '  description=''/>
+<siteMapNode url='BaiViet.aspx?mid=41' title='Bóng đá nữ '  description=''/>
+</siteMapNode>
+<siteMapNode url='BaiViet.aspx?mid=7' title='Cúp C1 châu âu'  description=''>
+<siteMapNode url='BaiViet.aspx?mid=42' title='Tin tức '  description=''/>
+<siteMapNode url='BaiViet.aspx?mid=43' title='Lịch thi đấu- Kết quả '  description=''/>
+<siteMapNode url='BaiViet.aspx?mid=44' title='Lịch sử '  description=''/>
+</siteMapNode>
+<siteMapNode url='BaiViet.aspx?mid=8' title='Hậu trường'  description='' />
+</siteMapNode>
+</siteMap>

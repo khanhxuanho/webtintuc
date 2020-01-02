@@ -1,0 +1,15 @@
+<%@ Page ValidateRequest="false" Language="VB" AutoEventWireup="false" %>
+<%@ Register TagPrefix="FCKeditorV2" Namespace="FredCK.FCKeditorV2" Assembly="FredCK.FCKeditorV2" %>
+<html>
+  <head>
+    <title>FCKeditor - Sample</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <form runat="server">
+      <FCKeditorV2:FCKeditor id="FCKeditor1" BasePath="~/FCKeditor/" runat="server" />
+      <br />
+      <input type="submit" value="Submit" runat="server" />
+    </form>
+  </body>
+</html>

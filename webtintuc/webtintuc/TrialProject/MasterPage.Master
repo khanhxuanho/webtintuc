@@ -1,0 +1,163 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="TrialProject.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Trang chủ</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1 {
+            width: 1000px;
+            
+        }
+        .khungvien
+        {
+        	border:solid 1px blue;
+        }
+        .style2
+        {
+        	border:solid 1px transparent;
+        	margin:0px;
+        	text-align:center;
+        	font-weight:bold;
+        	background-color:#009900;
+        
+        }
+        .style3
+        {   
+            margin: 0px;
+            height: 62px;
+            
+        }
+        .style4
+        {
+           
+            border-right:solid 1px pink;
+            margin: 0px;
+            width: 933px;
+        }
+        a{text-decoration:none;}
+        
+        </style>
+</head>
+<body style="background-color:white; background-image:url('../image/menu/1.jpg'); background-repeat:repeat-x repeat;";>
+    <form id="form1" runat="server">
+    <div style="vertical-align: top">
+    <center>
+          <table align="center"  cellspacing="1" class="style1" border="0" 
+              style="background-color: #FFFFFF" cellpadding="0">
+                <tr>
+                    <td class="style2" colspan="2">
+                        <asp:DataList ID="DataList2" runat="server" DataSourceID="SqlDataSource2" 
+                            Width="100%">
+                            <ItemTemplate>
+                            
+                            <a href='<%# Eval("urlbanner") %>'>
+                                    <asp:Image ID="Image1" runat="server" Height="120px" 
+                                    ImageUrl='<%# Eval("image") %>' Width="100%" />
+                            </a>
+                                
+                            </ItemTemplate>
+                        </asp:DataList>
+                        <asp:SqlDataSource ID="SqlDataSource2" runat="server" 
+                            ConnectionString="<%$ ConnectionStrings:connect %>" 
+                            
+                            SelectCommand="SELECT [image], [urlbanner] FROM [Banner] WHERE (([locationid] = @locationid) AND ([status] = @status))">
+                            <SelectParameters>
+                                <asp:Parameter DefaultValue="1" Name="locationid" Type="Int32" />
+                                <asp:Parameter DefaultValue="True" Name="status" Type="Boolean" />
+                            </SelectParameters>
+                        </asp:SqlDataSource>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="style3" colspan="2">
+                        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" 
+                            Orientation="Horizontal" Width="100%" BackColor="#009900" 
+                            DynamicHorizontalOffset="2" Font-Names="Tahoma" Font-Size="10pt" 
+                            ForeColor="White" StaticSubMenuIndent="10px" BorderColor="Red" 
+                            BorderStyle="Solid" Height="28px">
+                            <StaticSelectedStyle BackColor="#009900" />
+                            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <DynamicHoverStyle BackColor="#009900" ForeColor="White" />
+                            <DynamicMenuStyle BackColor="#33CC33" />
+                            <DynamicSelectedStyle BackColor="#00FF00" />
+                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <StaticHoverStyle BackColor="#009900" ForeColor="White" />
+                            <StaticItemTemplate>
+<%# Eval("Text") %>
+                            </StaticItemTemplate>
+                        </asp:Menu>
+                        
+                        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 
+                            ShowStartingNode="False" SiteMapProvider="Menu" />
+                    &nbsp;
+                        <asp:Label ID="Label7" runat="server" Text="Label" Visible="False"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label6" runat="server" Text="Label" Visible="False"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="txtTimKiem" runat="server" EnableTheming="True" 
+                            style="text-align: left;" Width="241px"></asp:TextBox>
+                <asp:Button ID="btnTimKiem" runat="server" Text="Tìm" onclick="btnTimKiem_Click" />
+
+
+                        <!--Đangnhap-->
+                         <a    style="width:120px; float:right; vertical-align: top;color:blue;
+                               margin-right:2px; margin-bottom:3px"
+                             href="DangNhap.aspx" id="aDangNhap" runat="server">Đăng nhập</a>
+
+
+
+                    </td>
+                </tr>
+                <tr>
+                 
+                    <td class="style4" style="vertical-align: top"><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        
+                        <p>
+                            &nbsp;</p>
+                        
+                    </asp:ContentPlaceHolder></td>
+
+                    <td style="width:120px; float:right; vertical-align: top; margin-right:2px; margin-bottom:3px;">
+        
+                        <asp:DataList ID="DataList1" runat="server" DataSourceID="SqlDataSource1">
+                            <ItemTemplate>
+                                <a href='<%# Eval("urlbanner") %>'><asp:Image runat="server" ImageUrl='<%# Eval("image") %>' BorderStyle="Solid" BorderWidth="1px" BorderColor="silver" Width="100%" Height="120px" /> </a>
+                            </ItemTemplate>
+                        </asp:DataList>
+                        <asp:ImageButton ID="ImageButton1" runat="server" 
+                            ImageUrl="~/image/advertise/vinh4.gif" Width="100%" />
+                        <asp:ImageButton ID="ImageButton2" runat="server" 
+                            ImageUrl="~/image/advertise/vinh2.gif" Width="100%" />
+                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+                            ConnectionString="<%$ ConnectionStrings:connect %>" 
+                            SelectCommand="SELECT [image], [urlbanner] FROM [Banner] WHERE (([locationid] = @locationid)) ORDER BY [order]">
+                            <SelectParameters>
+                               
+                                <asp:Parameter DefaultValue="2" Name="locationid" Type="Int32" />
+                            </SelectParameters>
+                        </asp:SqlDataSource>
+                    </td>
+                </tr>
+                <tr>
+                     <!--footer--> 
+                    
+                    <td class="style2" colspan="2" style="height:100px">
+                        SINH VIÊN THỰC HIỆN : HỒ XUÂN KHÁNH <br />
+                       LỚP D17HT02 - TRƯỜNG ĐẠI HỌC THỦ DẦU MỘT <br />
+                       Thông Tin Liên Hệ: Email: <a href="khanhxuan2708.@gmail.com">vanhop.bn@gmail.com</a>&nbsp; 
+                        ĐT:0332409550
+                        </td>
+                </tr>
+            </table>
+       </center> 
+       
+    </div>
+    </form>
+</body>
+</html>

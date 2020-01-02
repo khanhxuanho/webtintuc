@@ -1,0 +1,27 @@
+C:\Users\Nguyen Thuan\Documents\Visual Studio 2008\Projects\TrialProject\TrialProject\bin\TrialProject.dll
+C:\Users\Nguyen Thuan\Documents\Visual Studio 2008\Projects\TrialProject\TrialProject\bin\TrialProject.pdb
+C:\Users\Nguyen Thuan\Documents\Visual Studio 2008\Projects\TrialProject\TrialProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Nguyen Thuan\Documents\Visual Studio 2008\Projects\TrialProject\TrialProject\obj\Debug\TrialProject.dll
+C:\Users\Nguyen Thuan\Documents\Visual Studio 2008\Projects\TrialProject\TrialProject\obj\Debug\TrialProject.pdb
+C:\Users\khanh\Downloads\TrialProject\TrialProject\bin\TrialProject.dll
+C:\Users\khanh\Downloads\TrialProject\TrialProject\bin\TrialProject.pdb
+C:\Users\khanh\Downloads\TrialProject\TrialProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\khanh\Downloads\TrialProject\TrialProject\obj\Debug\TrialProject.dll
+C:\Users\khanh\Downloads\TrialProject\TrialProject\obj\Debug\TrialProject.pdb
+C:\Users\Administrator\Downloads\Do An 3 - Khanh . Ngoc Anh\Do An 3 - Khánh . Ngọc Ánh\TrialProject\TrialProject\TrialProject\bin\TrialProject.dll
+C:\Users\Administrator\Downloads\Do An 3 - Khanh . Ngoc Anh\Do An 3 - Khánh . Ngọc Ánh\TrialProject\TrialProject\TrialProject\bin\TrialProject.pdb
+C:\Users\Administrator\Downloads\Do An 3 - Khanh . Ngoc Anh\Do An 3 - Khánh . Ngọc Ánh\TrialProject\TrialProject\TrialProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\Do An 3 - Khanh . Ngoc Anh\Do An 3 - Khánh . Ngọc Ánh\TrialProject\TrialProject\TrialProject\obj\Debug\TrialProject.dll
+C:\Users\Administrator\Downloads\Do An 3 - Khanh . Ngoc Anh\Do An 3 - Khánh . Ngọc Ánh\TrialProject\TrialProject\TrialProject\obj\Debug\TrialProject.pdb
+E:\WebBongDa\TrialProject\bin\TrialProject.dll
+E:\WebBongDa\TrialProject\bin\TrialProject.pdb
+E:\WebBongDa\TrialProject\obj\Debug\ResolveAssemblyReference.cache
+E:\WebBongDa\TrialProject\obj\Debug\TrialProject.dll
+E:\WebBongDa\TrialProject\obj\Debug\TrialProject.pdb
+C:\Users\Admin\Desktop\WebBongDa\WebBongDa\TrialProject\bin\TrialProject.dll
+C:\Users\Admin\Desktop\WebBongDa\WebBongDa\TrialProject\bin\TrialProject.pdb
+C:\Users\Admin\Desktop\WebBongDa\WebBongDa\TrialProject\obj\Debug\TrialProject.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\WebBongDa\WebBongDa\TrialProject\obj\Debug\TrialProject.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\WebBongDa\WebBongDa\TrialProject\obj\Debug\TrialProject.csproj.CopyComplete
+C:\Users\Admin\Desktop\WebBongDa\WebBongDa\TrialProject\obj\Debug\TrialProject.dll
+C:\Users\Admin\Desktop\WebBongDa\WebBongDa\TrialProject\obj\Debug\TrialProject.pdb
